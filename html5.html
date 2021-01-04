@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Certificate Generator</title>
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+  	<div id="head">
+  		<div id="he1"><h2>Certificate Generator</h2></div>
+  		<div id="he2"><img height="80px" src="https://t4.ftcdn.net/jpg/03/36/52/07/240_F_336520787_QrrU4EIMzqGZndhDpmbXb8OCFuca7nJN.jpg"></div>
+  	</div>
+  	<div id="intro">
+  		<h1>Create Certificate for Free in Minutes</h1>
+  		<h3>Make unique certificates in minutes. No design skills needed.</h3>
+  	</div>
+  	<div id="content">
+  		<p id="p1">It's easy to make your own certificate<br></p>
+  		<div id="para">
+  			
+            <p id="p2"># Countless design customization options await you, and all you need to make use of them is a mouse and a keyboard.<br>
+            # The easiest way to create a await for you, just fill in details in form below and choose desired layout and upload your logos and signature of assurance and just download your certificate.<br># It is so simple and within few minutes you can design your own certificate.<br># You won’t need to hire a designer just to create your Certificates.<br># Download and produce high resolution certificates by saving them as print-ready PDF files.<br>#  Your designs can even be shared on social media or sent via email directly to your awardees. Just head over to the share button and select the option you want. 
+            </p>
+        </div>
+  		<div id="img"><img style="padding-top: 30px;" width="500px" src="https://support.thecn.com/hc/article_attachments/360060125034/customized_certificate.jpg"></div>
+  	</div>
+  	<p style="clear: both;"><br><br><hr></p>
+  	<p id="p11" style="padding-top: 50px;">Its time to create your own certificate</p>
+  	<div id="forms">
+  		<div id="details">
+  			<form>
+  				<table id="t1">
+  					<tr>
+  						<td>This is a certificate of :</td><td><input type="text" name="Field-1" id="f1" onblur="c('f1');"></td>
+  					</tr>
+  					<tr>
+  						<td>Name to be printed :</td><td><input type="text" name="Field-2" id="f2" onblur="c('f2');"></td>
+  					</tr>
+  					<tr>
+  						<td>Purpose of certification :</td><td><input type="text" name="Field-3" id="f3" onblur="c('f3');"></td>
+  					</tr>
+  					<tr>
+  						<td>Date of certification :</td><td><input type="Date" id="f4" name="Field-4" onblur="c('f4');"></td>
+  					</tr>
+  					<tr>
+  						<td>Authority Designation :</td><td><input type="text" name="Field-5" id="f5" onblur="c('f5');"></td>
+  					</tr>
+  					<tr>
+  						<td>LOGO :</td><td><input type="file" id="f6" name="Field-6" accept="image/*"></td>
+  					</tr>
+  					<tr>
+  						<td>Signature of Authority :</td><td><input type="file" name="Field-7" id="f7" accept="image/*"></td>
+  					</tr>
+  				</table><br><span style="padding-left:130px;" id="s1"></span><br><br>
+  				<input style="margin-left:130px;"type="button" id="b1" onclick="preview();" value="Preview">
+  				<input type="button" id="b2" onclick="downloadd();" value="Download">
+  				<input type="button" id="b3" onclick="clearr();" value="Reset" >
+  			</form>
+  		</div>
+  		<div id="layout">
+  			<p id="po">Choose a border layout :</p>
+  			<form>
+  				<table id="t2">
+  					<tr>
+  						<td><input type="radio" id="r1" class="radioo" name="border" value="https://cdn2.f-cdn.com/contestentries/1458324/27225546/5c10f85e1ea5e_thumb900.jpg"><label for="r1"><img width="300px" src="https://cdn2.f-cdn.com/contestentries/1458324/27225546/5c10f85e1ea5e_thumb900.jpg"></label></td><td><input type="radio" id="r2" class="radioo" name="border" value="https://conceitohost.com.br/curso/mod/certificate/pix/borders/Fancy2-green.jpg"><label for="r2"><img width="300px" src="https://conceitohost.com.br/curso/mod/certificate/pix/borders/Fancy2-green.jpg"></label></td>
+  					</tr>
+  					<tr>
+  						<td><input type="radio" id="r3" class="radioo" name="border" value="https://pngimage.net/wp-content/uploads/2018/06/red-certificate-border-png-.png"><label for="r3"><img width="300px" src="https://pngimage.net/wp-content/uploads/2018/06/red-certificate-border-png-.png"></label></td><td><input type="radio" id="r4" class="radioo" name="border" value="https://cdn3.f-cdn.com/contestentries/1458324/29499189/5c10c7d63593d_thumb900.jpg"><label for="r4"><img width="300px" src="https://cdn3.f-cdn.com/contestentries/1458324/29499189/5c10c7d63593d_thumb900.jpg"></label></td>
+  					</tr>
+  				</table>
+  		    </form>
+  		</div>
+  	</div>
+  	<a id="test"></a>
+  	<div style="clear: both;padding: 30px;font-size: 35px;"><p id="pi">Preview of your Certificate :</p></div>
+    <div id="certificate">
+      <p id="p3"></p>
+      <p id="p4"></p>
+      <p id="p5">No Preview Available</p>
+      <p id="p6">Design First And Preview The Certificate</p>
+      <table id="t3">
+        <tr>
+          <td id="date"></td><td id="logoo"></td><td id="sign"></td>
+        </tr>
+        <tr>
+          <td id="da"></td><td></td><td id="auto"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="copy">
+      <p>Copyrights &copy; are owned by Mahesh_Ram</p>
+    </div>
+  </div>
+</body>
+</html>

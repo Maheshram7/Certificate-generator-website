@@ -1,0 +1,167 @@
+body
+{
+	margin: 0px;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+#container
+{
+	width: 100%;
+}
+
+h2
+{	
+	color: #FF0000;
+	font-size: 35px;
+	font-family: Candara, serif;
+	text-shadow: 2px 2px;
+	padding-left: 20px;
+}
+
+#he1
+{
+	float: left;
+}
+
+#he2
+{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+#intro
+{
+	clear: both;
+	background-image: url("https://images.wallpaperscraft.com/image/sky_red_horizon_trees_119417_2048x1152.jpg");
+	margin:0px;
+	color:white;
+	height: 500px;
+	text-align: center;
+}
+
+h1
+{
+	padding-top: 155px;
+	font-size: 70px;
+}
+
+#para
+{
+	float: left;
+	width: 70%;
+}
+
+#p1,#p11
+{
+	clear: both;
+	/*padding-left: 525px;*/
+	font-size: 36px;
+	text-align: center;
+}
+
+#p1
+{
+	padding-top: 20px;
+}
+
+#p2
+{
+	font-size: 25px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#img
+{
+	float: right;
+	width: 30%;
+}
+
+#forms
+{
+	padding-top: 20px;
+}
+
+#details
+{
+	font-size: 25px;
+	padding-top: 30px;
+	padding-left: 80px;
+	float: left;
+	width: 50%;
+}
+
+input,#po
+{
+	font-size: 25px;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+#layout
+{
+	float: right;
+	width: 50%
+	padding-left:10px;
+	padding-right: 100px;
+}
+
+#certificate
+{
+	clear: both;
+	background-repeat: no-repeat;
+	padding: 100px;
+	height: 700px;
+	text-align: center;
+	background-size: 1700px 850px;
+    position: relative;
+	font-family: Bahnschrift SemiBold;
+	border: double;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#copy
+{
+	text-align: right;
+	background-color: grey;
+	color: white;
+	padding-right: 20px; 
+}
+
+#p3
+{
+	font-size: 50px;
+}
+
+#p4
+{
+	font-size: 25px;
+}
+
+#p5
+{
+	font-size: 35px;
+	color: red;
+}
+
+#p6
+{
+	font-size: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: red;
+}
+
+#t3
+{
+	width:100%;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 130px;
+}
+
+#date,#da
+{
+	padding-right: 100px;
+}
